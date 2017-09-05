@@ -51,7 +51,7 @@
     },
     "isIssuelist": {
       "type": "identifier",
-      "selector": ".floatleft",
+      "selector": "body",
       "control": "exists"
     }
   },
