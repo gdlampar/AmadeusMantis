@@ -14,7 +14,7 @@
             },
             "selector": {
               "fn": "",
-              "selector": "a"
+              "selectorAll": "a"
             },
             "control": "text"
           },
