@@ -48,6 +48,11 @@
       },
       "selector": ".button",
       "control": "action.button"
+    },
+    "isLogin": {
+      "type": "identifier",
+      "selector": ".form-title",
+      "control": "exists"
     }
   },
   "connect": []
