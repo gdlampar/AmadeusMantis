@@ -52,7 +52,8 @@
     "isLogin": {
       "type": "identifier",
       "selector": ".form-title",
-      "control": "exists"
+      "control": "exists",
+      "selectContains": "login"
     }
   },
   "connect": [
