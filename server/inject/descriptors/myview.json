@@ -9,8 +9,9 @@
     },
     "viewissuesclick": {
       "type": "action",
-      "selector": "a",
-      "control": "action.link"
+      "selector": "a[href]",
+      "control": "action.link",
+      "selectContains": "View Issues"
     }
   },
   "connect": []
