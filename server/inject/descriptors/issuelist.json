@@ -14,9 +14,10 @@
             },
             "selector": {
               "fn": "",
-              "selectorAll": "$i"
+              "selectorAll": "td"
             },
-            "control": "text"
+            "control": "property.innerText",
+            "selectIndex": 3
           },
           "summary": {
             "type": "string",
