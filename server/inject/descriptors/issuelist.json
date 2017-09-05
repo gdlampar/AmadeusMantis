@@ -69,5 +69,14 @@
       "selector": ".form-title"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isIssuelist"
+      ],
+      "screens": [
+        "issuelist"
+      ]
+    }
+  ]
 }
