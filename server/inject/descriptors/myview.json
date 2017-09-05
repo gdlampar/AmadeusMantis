@@ -4,7 +4,8 @@
     "ismyview": {
       "type": "identifier",
       "selector": ".form-title",
-      "control": "exists"
+      "control": "exists",
+      "selectContains": "Assigned to Me (Unresolved)"
     }
   },
   "connect": []
