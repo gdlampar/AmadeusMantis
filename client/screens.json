@@ -29,13 +29,6 @@
       "model": "login"
     },
     {
-      "id": "tableviewadvancedcool",
-      "name": "TableView Advanced-Cool",
-      "sourceScreenId": "app.tableviewadvanced.tableviewadvancedcool",
-      "sourceAppId": "universaltemplates",
-      "model": "tableviewadvancedcool"
-    },
-    {
       "id": "issuelist",
       "name": "issuelist",
       "sourceScreenId": "app.tableviewadvanced.tableviewadvancedcool",
