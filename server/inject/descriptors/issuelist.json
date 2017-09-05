@@ -51,9 +51,9 @@
       "selectorAll": "#buglist tbody tr"
     },
     "isIssuelist": {
-      "type": "string",
+      "type": "identifier",
       "selector": "body",
-      "control": "property.innerHTML"
+      "control": "exists"
     }
   },
   "connect": [
