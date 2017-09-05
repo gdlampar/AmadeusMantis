@@ -50,7 +50,7 @@
       }
     },
     "isIssuelist": {
-      "type": "identifier",
+      "type": "string",
       "selector": "body",
       "control": "exists"
     }
