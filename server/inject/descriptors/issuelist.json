@@ -64,9 +64,9 @@
     },
     "isIssuelist": {
       "type": "identifier",
-      "selector": ".floatleft",
       "control": "exists",
-      "selectContains": "Viewing Issues"
+      "selectContains": "Viewing Issues",
+      "selector": ".floatleft"
     }
   },
   "connect": [
