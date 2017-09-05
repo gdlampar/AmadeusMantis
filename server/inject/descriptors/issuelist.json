@@ -48,11 +48,6 @@
       "update": {
         "type": "none"
       }
-    },
-    "isissuelist": {
-      "type": "identifier",
-      "selector": ".floatleft",
-      "control": "exists"
     }
   },
   "connect": [
