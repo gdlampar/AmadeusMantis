@@ -12,7 +12,10 @@
             "update": {
               "type": "none"
             },
-            "selector": "a",
+            "selector": {
+              "fn": "",
+              "selector": "a"
+            },
             "control": "text"
           },
           "summary": {
