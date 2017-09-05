@@ -52,8 +52,7 @@
     "isissuelist": {
       "type": "identifier",
       "selector": ".floatleft",
-      "control": "exists",
-      "selectContains": "Viewing Issues"
+      "control": "exists"
     }
   },
   "connect": [
