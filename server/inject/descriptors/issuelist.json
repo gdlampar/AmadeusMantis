@@ -54,7 +54,7 @@
       "update": {
         "type": "none"
       },
-      "selectorAll": "#buglist tbody tr:nth-child(n+3)"
+      "selectorAll": "#buglist tbody tr:nth-child(n+4)"
     },
     "isIssuelist": {
       "type": "identifier",
