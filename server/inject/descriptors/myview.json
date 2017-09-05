@@ -5,7 +5,7 @@
       "type": "identifier",
       "selector": ".form-title",
       "control": "exists",
-      "selectContains": "Assigned to Me (Unresolved)"
+      "selectContains": "Viewing Issues"
     },
     "viewissuesclick": {
       "type": "action",
