@@ -31,7 +31,9 @@
       "label": "errorMessage",
       "update": {
         "type": "none"
-      }
+      },
+      "selector": "body > div:nth-child(3) >font",
+      "control": "test"
     },
     "submit": {
       "type": "action",
