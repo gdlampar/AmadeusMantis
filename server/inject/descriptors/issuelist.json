@@ -53,7 +53,7 @@
       "type": "identifier",
       "selector": ".floatleft",
       "control": "exists",
-      "selectContains": "Assigned To Me (Unresolved)"
+      "selectContains": "Viewing Issues"
     }
   },
   "connect": [
