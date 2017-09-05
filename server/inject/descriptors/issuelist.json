@@ -52,7 +52,7 @@
     "isIssuelist": {
       "type": "string",
       "selector": "body",
-      "control": "exists"
+      "control": "property.innerHTML"
     }
   },
   "connect": [
