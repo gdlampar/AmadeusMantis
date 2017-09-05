@@ -14,7 +14,7 @@
             },
             "selector": {
               "fn": "",
-              "selectorAll": "a"
+              "selectorAll": "#buglist > tbody > tr:nth-child($i) > td:nth-child(4) > a"
             },
             "control": "text"
           },
