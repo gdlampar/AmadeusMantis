@@ -72,7 +72,8 @@
   "connect": [
     {
       "match": [
-        "isissuelist"
+        "isissuelist",
+        "isIssuelist"
       ],
       "screens": [
         "issuelist"
