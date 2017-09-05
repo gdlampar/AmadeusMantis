@@ -6,6 +6,11 @@
       "selector": ".form-title",
       "control": "exists",
       "selectContains": "Assigned to Me (Unresolved)"
+    },
+    "viewissuesclick": {
+      "type": "action",
+      "selector": "body",
+      "control": "property.innerText"
     }
   },
   "connect": []
