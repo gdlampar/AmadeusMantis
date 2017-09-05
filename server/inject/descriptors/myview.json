@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "properties": {
+    "ismyview": {
+      "type": "identifier",
+      "selector": ".form-title",
+      "control": "property.innerText"
+    }
+  },
+  "connect": []
+}
