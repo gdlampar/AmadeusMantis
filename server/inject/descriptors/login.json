@@ -46,7 +46,7 @@
           "type": "string"
         }
       },
-      "selector": ".center",
+      "selector": ".button",
       "control": "action.button"
     }
   },
