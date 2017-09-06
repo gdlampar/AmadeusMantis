@@ -110,16 +110,6 @@
           ]
         }
       },
-      "multiSelectData2": {
-        "type": "select",
-        "label": "MultiSelect",
-        "update": {
-          "type": "action",
-          "action": [
-            "submit"
-          ]
-        }
-      },
       "submit": {
         "type": "action"
       },
