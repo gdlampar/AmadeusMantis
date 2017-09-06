@@ -30,8 +30,7 @@
     "submit": {
       "type": "action",
       "selector": "input[type=\"submit\"]",
-      "control": "action.button",
-      "selectContains": "Submit Report"
+      "control": "action.button"
     }
   },
   "connect": [
