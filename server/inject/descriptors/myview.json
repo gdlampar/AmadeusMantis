@@ -11,7 +11,7 @@
       "type": "action",
       "selector": "a[href]",
       "control": "action.link",
-      "selectContains": "View Issues"
+      "selectContains": "Report Issues"
     }
   },
   "connect": [
