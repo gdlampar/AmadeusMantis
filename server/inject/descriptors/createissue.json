@@ -25,7 +25,7 @@
     "photo": {
       "type": "string",
       "selector": "#ufile[]",
-      "control": "Text"
+      "control": "text"
     }
   },
   "connect": []
