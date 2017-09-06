@@ -100,36 +100,6 @@
     "type": "object",
     "comment": "Forms",
     "properties": {
-      "string": {
-        "type": "string",
-        "label": "TextInput",
-        "update": {
-          "type": "action",
-          "action": [
-            "submit"
-          ]
-        }
-      },
-      "string2": {
-        "type": "string",
-        "label": "TextInput",
-        "update": {
-          "type": "action",
-          "action": [
-            "submit"
-          ]
-        }
-      },
-      "string3": {
-        "type": "string",
-        "label": "TextArea",
-        "update": {
-          "type": "action",
-          "action": [
-            "submit"
-          ]
-        }
-      },
       "multiSelectData": {
         "type": "select",
         "label": "MultiSelect",
@@ -152,6 +122,26 @@
       },
       "submit": {
         "type": "action"
+      },
+      "summary": {
+        "type": "string",
+        "label": "TextInput",
+        "update": {
+          "type": "action",
+          "action": [
+            "submit"
+          ]
+        }
+      },
+      "description": {
+        "type": "string",
+        "label": "TextInput",
+        "update": {
+          "type": "action",
+          "action": [
+            "submit"
+          ]
+        }
       }
     }
   }
