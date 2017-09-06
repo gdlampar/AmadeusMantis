@@ -24,7 +24,7 @@
     },
     "photo": {
       "type": "string",
-      "selector": "#ufile[]",
+      "selector": "[id*=\"ufile\"]",
       "control": "text"
     }
   },
