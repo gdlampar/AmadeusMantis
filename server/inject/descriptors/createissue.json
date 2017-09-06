@@ -14,7 +14,7 @@
     },
     "summary": {
       "type": "string",
-      "selector": "input[name=\"description\"]",
+      "selector": "input[name=\"summary\"]",
       "control": "property.innerText"
     },
     "description": {
