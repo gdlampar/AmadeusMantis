@@ -29,7 +29,7 @@
     },
     "submit": {
       "type": "action",
-      "selector": ".button",
+      "selector": "input[type=\"submit\"]",
       "control": "action.button",
       "selectContains": "Submit Report"
     }
