@@ -4,7 +4,7 @@
     "iscreateissue": {
       "type": "identifier",
       "selector": ".form-title",
-      "control": "property.innerText",
+      "control": "exists",
       "selectContains": "Enter Report Details"
     }
   },
