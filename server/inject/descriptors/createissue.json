@@ -6,6 +6,26 @@
       "selector": ".form-title",
       "control": "exists",
       "selectContains": "Enter Report Details"
+    },
+    "category": {
+      "type": "select",
+      "selector": ".form-title",
+      "control": "property.innerText"
+    },
+    "summary": {
+      "type": "string",
+      "selector": ".form-title",
+      "control": "property.innerText"
+    },
+    "description": {
+      "type": "string",
+      "selector": ".form-title",
+      "control": "property.innerText"
+    },
+    "photo": {
+      "type": "string",
+      "selector": ".form-title",
+      "control": "property.innerText"
     }
   },
   "connect": []
