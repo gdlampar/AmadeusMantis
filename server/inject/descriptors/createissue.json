@@ -19,7 +19,7 @@
     },
     "description": {
       "type": "string",
-      "selector": ".form-title",
+      "selector": "input[name=\"description\"]",
       "control": "property.innerText"
     },
     "photo": {
