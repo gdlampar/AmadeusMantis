@@ -25,7 +25,7 @@
     "photo": {
       "type": "string",
       "selector": "[id*=\"ufile\"]",
-      "control": "text"
+      "control": "property.innerText"
     }
   },
   "connect": []
