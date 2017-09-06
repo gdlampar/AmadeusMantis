@@ -20,7 +20,7 @@
     "description": {
       "type": "string",
       "selector": "textarea[name=\"description\"]",
-      "control": "property.innerText"
+      "control": "text"
     },
     "photo": {
       "type": "string",
