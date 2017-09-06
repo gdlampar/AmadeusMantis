@@ -28,5 +28,14 @@
       "control": "text"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "iscreateissue"
+      ],
+      "screens": [
+        "createissue"
+      ]
+    }
+  ]
 }
