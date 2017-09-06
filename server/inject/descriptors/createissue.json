@@ -3,8 +3,9 @@
   "properties": {
     "iscreateissue": {
       "type": "identifier",
-      "selector": ".floatleft",
-      "control": "property.innerText"
+      "selector": ".form-title",
+      "control": "property.innerText",
+      "selectContains": "Enter Report Details"
     }
   },
   "connect": []
