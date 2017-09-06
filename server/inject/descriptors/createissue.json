@@ -9,7 +9,7 @@
     },
     "category": {
       "type": "select",
-      "selector": ".form-title",
+      "selector": "[name=\"category_id\"]",
       "control": "property.innerText"
     },
     "summary": {
