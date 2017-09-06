@@ -14,5 +14,25 @@
         "value": 2
       }
     ]
+  },
+  "multiSelectData": {
+    "options": [
+      {
+        "label": "opcion1",
+        "value": "val1"
+      },
+      {
+        "label": "opcion2",
+        "value": "val2"
+      },
+      {
+        "label": "opcion3",
+        "value": "val3"
+      }
+    ],
+    "selected": {
+      "label": "opcion1",
+      "value": "val1"
+    }
   }
 }
