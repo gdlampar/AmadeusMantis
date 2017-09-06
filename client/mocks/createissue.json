@@ -15,7 +15,7 @@
       }
     ]
   },
-  "multiSelectData": {
+  "category": {
     "options": [
       {
         "label": "opcion1",

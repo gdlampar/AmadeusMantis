@@ -13,11 +13,9 @@
         <div data-comp-id="div.1"></div>
         <!--Form Section-->
         <!--Container 1-->
-        <label class="item  item-input item-select-icon positive-icon"
-            data-comp-id="selectInput.1">
+        <label class="item  item-input item-select-icon positive-icon" data-comp-id="selectInput.1">
             <span class="input-label">Category</span>
-            <select ng-model="data.multiSelectData.selected"
-                ng-options="item as item.label for item in data.multiSelectData.options"></select>
+            <select ng-model="data.category.selected" ng-options="item as item.label for item in data.multiSelectData.options"></select>
         </label>
         <label class="item item-input" data-comp-id="textInput.1">
             <span class="input-label">Summary*</span>
@@ -27,16 +25,13 @@
             <span class="input-label">Description*</span>
             <input ng-model="data.description" type="text">
         </label>
-        <label class="item" data-comp-id="takePhoto.1"
-            ng-class="{'item-input item-button-right': style === 'control'}"
-            take-photo="control">
+        <label class="item" data-comp-id="takePhoto.1" ng-class="{'item-input item-button-right': style === 'control'}" take-photo="control">
             <span class="input-label" ng-if="style === 'control'">Take Picture</span>
             <button class="button button-icon" ng-if="style === 'control'">
                 <i class="icon positive-icon ion-camera"></i>
             </button>
             <input disabled="" ng-if="style === 'control'" type="text">
-            <button class="button button-block button-positive nomargin"
-                ng-if="style === 'button'">Take Photo</button>
+            <button class="button button-block button-positive nomargin" ng-if="style === 'button'">Take Photo</button>
             <textarea class="not-visible"></textarea>
         </label>
         <!--Container 1-->
@@ -65,18 +60,14 @@
             </div>
         </div>
         <div data-comp-id="div.5">
-            <button class="button button-block button-positive" data-comp-id="button.3"
-                ng-click="app.action('form', 'submit', this)">Submit</button>
+            <button class="button button-block button-positive" data-comp-id="button.3" ng-click="app.action('form', 'submit', this)">Submit</button>
         </div>
     </ion-content>
-    <div class="footer-button-bar" data-comp-id="footer-bar-buttons.1"
-        dynamic-floating-footer="">
+    <div class="footer-button-bar" data-comp-id="footer-bar-buttons.1" dynamic-floating-footer="">
         <div class="row" data-comp-id="row.2" style="padding: 0px; margin: 0px;">
             <div class="col text-center" data-comp-id="column.2" style="padding: 0px;">
                 <div class="footer-button" data-comp-id="footerButton.1">
-                    <button
-                        class="button icon button-round button-shadowed ion-arrow-left-c button-calm"
-                        style="border-color: rgba(255, 255, 255, 0);"></button>
+                    <button class="button icon button-round button-shadowed ion-arrow-left-c button-calm" style="border-color: rgba(255, 255, 255, 0);"></button>
                     <div class="label"></div>
                 </div>
                 <div class=" energized" data-comp-id="text.1">Cancel</div>
@@ -84,9 +75,7 @@
             <div class="col text-center" data-comp-id="column.3" style="padding: 0px;"></div>
             <div class="col text-center" data-comp-id="column.4" style="padding: 0px;">
                 <div class="footer-button" data-comp-id="footerButton.2">
-                    <button
-                        class="button icon ion-arrow-right-c button-round button-shadowed button-energized"
-                        style="border-color: rgba(255, 255, 255, 0);"></button>
+                    <button class="button icon ion-arrow-right-c button-round button-shadowed button-energized" style="border-color: rgba(255, 255, 255, 0);"></button>
                     <div class="label"></div>
                 </div>
                 <div class=" energized" data-comp-id="text.2">Continue</div>

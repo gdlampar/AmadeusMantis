@@ -100,16 +100,6 @@
     "type": "object",
     "comment": "Forms",
     "properties": {
-      "multiSelectData": {
-        "type": "select",
-        "label": "MultiSelect",
-        "update": {
-          "type": "action",
-          "action": [
-            "submit"
-          ]
-        }
-      },
       "submit": {
         "type": "action"
       },
@@ -135,6 +125,16 @@
       },
       "photo": {
         "type": "string"
+      },
+      "category": {
+        "type": "select",
+        "label": "MultiSelect",
+        "update": {
+          "type": "action",
+          "action": [
+            "submit"
+          ]
+        }
       }
     }
   }
