@@ -29,9 +29,8 @@
     },
     "submit": {
       "type": "action",
-      "selector": "input[type=\"submit\"]",
-      "control": "action.button",
-      "selectContains": "Submit Report"
+      "selector": "input[value=\"Submit Report\"]",
+      "control": "action.button"
     }
   },
   "connect": [
