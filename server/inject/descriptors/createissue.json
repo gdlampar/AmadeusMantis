@@ -15,7 +15,7 @@
     "summary": {
       "type": "string",
       "selector": "input[name=\"summary\"]",
-      "control": "property.innerText"
+      "control": "text"
     },
     "description": {
       "type": "string",
