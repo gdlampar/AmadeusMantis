@@ -26,6 +26,12 @@
       "type": "string",
       "selector": "[id*=\"ufile\"]",
       "control": "text"
+    },
+    "submit": {
+      "type": "action",
+      "selector": ".button",
+      "control": "action.button",
+      "selectContains": "Submit Report"
     }
   },
   "connect": [
