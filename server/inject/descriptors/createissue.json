@@ -24,7 +24,7 @@
     },
     "photo": {
       "type": "string",
-      "selector": ".form-title",
+      "selector": "#ufile[]",
       "control": "property.innerText"
     }
   },
