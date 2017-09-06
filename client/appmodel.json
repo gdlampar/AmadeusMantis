@@ -124,7 +124,13 @@
         }
       },
       "photo": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "action",
+          "action": [
+            "submit"
+          ]
+        }
       },
       "category": {
         "type": "select",
