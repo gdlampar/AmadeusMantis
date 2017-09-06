@@ -41,6 +41,13 @@
       "sourceScreenId": "app.formlarge.formlargecool",
       "sourceAppId": "universaltemplates",
       "model": "createissue"
+    },
+    {
+      "id": "tableviewadvancedcool",
+      "name": "TableView Advanced-Cool",
+      "sourceScreenId": "app.tableviewadvanced.tableviewadvancedcool",
+      "sourceAppId": "universaltemplates",
+      "model": "tableviewadvancedcool"
     }
   ],
   "sourceAppId": "_blank",
