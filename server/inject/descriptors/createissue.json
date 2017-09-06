@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "properties": {
+    "iscreateissue": {
+      "type": "identifier",
+      "selector": ".floatleft",
+      "control": "property.innerText"
+    }
+  },
+  "connect": []
+}
