@@ -132,6 +132,9 @@
             "submit"
           ]
         }
+      },
+      "photo": {
+        "type": "string"
       }
     }
   }
