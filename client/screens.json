@@ -10,6 +10,13 @@
       "sourceScreenId": "app.blank"
     },
     {
+      "id": "tableviewadvancedcool",
+      "name": "TableView Advanced-Cool",
+      "sourceScreenId": "app.tableviewadvanced.tableviewadvancedcool",
+      "sourceAppId": "universaltemplates",
+      "model": "tableviewadvancedcool"
+    },
+    {
       "id": "menu",
       "name": "menu",
       "sourceAppId": "_blank",
@@ -41,13 +48,6 @@
       "sourceScreenId": "app.formlarge.formlargecool",
       "sourceAppId": "universaltemplates",
       "model": "createissue"
-    },
-    {
-      "id": "tableviewadvancedcool",
-      "name": "TableView Advanced-Cool",
-      "sourceScreenId": "app.tableviewadvanced.tableviewadvancedcool",
-      "sourceAppId": "universaltemplates",
-      "model": "tableviewadvancedcool"
     }
   ],
   "sourceAppId": "_blank",

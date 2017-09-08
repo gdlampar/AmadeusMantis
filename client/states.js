@@ -15,6 +15,15 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.tableviewadvancedcool', {
+        views: {
+            app: {
+                controller: 'app_tableviewadvancedcool',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.tableviewadvancedcool');
+                }
+            }
+        }
     }).state('app.menu', {
         views: {
             app: {
@@ -57,15 +66,6 @@ angular.module('app').config(function ($stateProvider) {
                 controller: 'app_createissue',
                 templateProvider: function (app) {
                     return app.templateProvider('app.createissue');
-                }
-            }
-        }
-    }).state('app.tableviewadvancedcool', {
-        views: {
-            app: {
-                controller: 'app_tableviewadvancedcool',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.tableviewadvancedcool');
                 }
             }
         }
